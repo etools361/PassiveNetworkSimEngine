@@ -76,8 +76,8 @@ for ii=1:m
     cellMark    = AxisOfSchNode{mDevice(1)};% 读取标记
     if cellDevice{1}.edge == eLoad && (length(cellMark)-cellMark{1})>1% 负载在最终位置，交换位置
         lastPoint = cellMark{end};
-        cellMark{end}   = cellMark{cellMark{1}};
-        cellMark{cellMark{1}} = lastPoint;
+        cellMark{end}   = cellMark{cellMark{1}+1};
+        cellMark{cellMark{1}+1} = lastPoint;
         AxisOfSchNode{mDevice(1)} = cellMark;
     end
     NodeAxis    = cellMark{cellMark{1}+1};
