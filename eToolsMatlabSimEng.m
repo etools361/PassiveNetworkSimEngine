@@ -45,7 +45,7 @@ strNetlist1 = {
 'R2 R 4 5 0.1';
 'RL R 5 0 1'
 };
-strNetlist = {
+strNetlist1 = {
 'V0 V 1 0 1';
 'RS R 1 2 1';
 'C2 C 2 0 0.314631';
@@ -72,6 +72,27 @@ strNetlist1 = {
 'C6 C 6 0 0.491582';
 'L6 L 6 0 0.052049';
 'RL R 6 0 1'
+};
+strNetlist1 = {
+'V0 V 1 0 1';
+'RS R 1 2 1';
+'C2 C 2 3 0.1';
+'R2 R 2 3 0.2';
+'C3 C 4 3 1';
+'R3 R 4 3 0.2';
+'C4 C 4 5 10';
+'R4 R 4 5 0.2';
+'C5 C 6 5 100';
+'R5 R 6 5 0.2';
+'RL R 6 0 1'
+};
+strNetlist1 = {
+'V0 V 1 0 1';
+'RS R 1 2 1';
+'R1 R 3 2 1';
+'R2 R 2 0 1';
+'R3 R 1 3 10';
+'RL R 3 0 1'
 };
 % split netlist
 [iType, Value, cellNode1, CellNode2, cellName] = funSimNetlist2Array(strNetlist);
