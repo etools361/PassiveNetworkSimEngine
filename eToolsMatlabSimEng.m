@@ -58,7 +58,7 @@ strNetlist = {
 'RL R 4 0 1'
 };
 % Butterworth BPF
-strNetlist = {
+strNetlist1 = {
 'V0 V 1 0 1';
 'RS R 1 2 1';
 'C2 C 2 0 0.491582';
@@ -155,8 +155,9 @@ title('Phase VS. Freq');
 
 %% -----------------Tran-------------------------
 f1=2e-2;
-f1=1;
-Tmax=30/f1;
+% f1=1;
+% Tmax=30/f1;
+Tmax=2/f1;
 Nmax=100000; % 
 h=Tmax/Nmax;
 t=linspace(0,Tmax,Nmax);   % 构造时间序列
