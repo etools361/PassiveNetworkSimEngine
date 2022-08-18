@@ -40,5 +40,6 @@ win10, Matlab2021a
 [1] : [模拟无源滤波器设计（一）](https://mp.weixin.qq.com/s/wNRHyBHpimjU90bymHp7JA) \
 [2] : [模拟无源滤波器设计（二）](https://mp.weixin.qq.com/s/3GMQs4WDm683tdAXqyoOgQ) \
 [3] : [模拟无源滤波器设计（三）](https://mp.weixin.qq.com/s/nZFx7weLcO-WRKLbP0T4jQ) \
-[4] : [欢迎关注电路设计小工具公众号](https://mp.weixin.qq.com/s/fxfEnir-hU0YvF9_CWyI6g) \
-[5] : [Matlab源码地址](https://github.com/etools361/PassiveNetworkSimEngine)
+[4] : [模拟无源滤波器设计（四）](https://mp.weixin.qq.com/s/mllwGShvbh3TWdFRbp9LhQ) \
+[5] : [欢迎关注电路设计小工具公众号](https://mp.weixin.qq.com/s/fxfEnir-hU0YvF9_CWyI6g) \
+[6] : [Matlab源码地址](https://github.com/etools361/PassiveNetworkSimEngine)
